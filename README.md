@@ -1,22 +1,41 @@
-# Welcome to Remix!
+# Website
 
-- [Remix Docs](https://remix.run/docs)
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## Development
+### Installation
 
-You will be utilizing Wrangler for local development to emulate the Cloudflare runtime. This is already wired up in your package.json as the `dev` script:
-
-```sh
-# start the remix dev server and wrangler
-npm run dev
+```
+$ yarn
 ```
 
-Open up [http://127.0.0.1:8788](http://127.0.0.1:8788) and you should be ready to go!
+### Local Development
 
-## Deployment
+```
+$ yarn start
+```
 
-Cloudflare Pages are currently only deployable through their Git provider integrations.
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-If you don't already have an account, then [create a Cloudflare account here](https://dash.cloudflare.com/sign-up/pages) and after verifying your email address with Cloudflare, go to your dashboard and follow the [Cloudflare Pages deployment guide](https://developers.cloudflare.com/pages/framework-guides/deploy-anything).
+### Build
 
-Configure the "Build command" should be set to `npm run build`, and the "Build output directory" should be set to `public`.
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
