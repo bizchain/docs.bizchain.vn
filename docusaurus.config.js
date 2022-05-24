@@ -9,7 +9,7 @@ const config = {
   title: 'BizChain Documentation',
   tagline: 'Dinosaurs are cool',
   url: 'https://docs.bizchain.vn',
-  baseUrl: '/docs.bizchain.vn/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
