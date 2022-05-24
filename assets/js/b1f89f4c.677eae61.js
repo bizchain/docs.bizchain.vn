@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs_2=self.webpackChunkdocs_2||[]).push([[1604],{3913:function(s){s.exports=JSON.parse('{"label":"hello","permalink":"/docs.bizchain.vn/blog/tags/hello","allTagsPath":"/docs.bizchain.vn/blog/tags","count":2}')}}]);
