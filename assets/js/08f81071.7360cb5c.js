@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_2=self.webpackChunkdocs_2||[]).push([[5950],{599:function(a){a.exports=JSON.parse('{"label":"facebook","permalink":"/docs.bizchain.vn/blog/tags/facebook","allTagsPath":"/docs.bizchain.vn/blog/tags","count":1}')}}]);
