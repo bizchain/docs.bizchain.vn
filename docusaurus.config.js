@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'BizChain Documentation',
+  title: 'BizChain Docs',
   tagline: 'Doing it yourself brings great satisfaction.',
   url: 'https://docs.bizchain.vn',
   baseUrl: '/',
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/bizchain/docs.bizchain.vn/tree/main/',
         },
         blog: false,
         theme: {
@@ -67,7 +67,7 @@ const config = {
             type: 'doc',
             docId: 'faqs',
             position: 'left',
-            label: 'Hay hỏi',
+            label: 'Câu hỏi thường gặp',
           },
           {
             href: 'https://store.bizchain.vn',
@@ -147,7 +147,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} BizChain Vietnam. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} BizChain Vietnam. <a href="https://www.buymeacoffee.com/caoanh">Buy me a coffee</a>.`,
       },
       prism: {
         theme: lightCodeTheme,
