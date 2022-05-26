@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'BizChain Documentation',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Doing it yourself brings great satisfaction.',
   url: 'https://docs.bizchain.vn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -23,8 +23,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'vi',
+    locales: ['vi'],
   },
 
   presets: [
@@ -39,13 +39,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -57,69 +51,102 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'BizChain Docs',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'BizChain Vietnam Logo',
+          src: 'img/logo-bizchain-128.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tổng quan',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'doc',
+            docId: 'faqs',
+            position: 'left',
+            label: 'Hay hỏi',
+          },
+          {
+            href: 'https://store.bizchain.vn',
+            label: 'Cửa hàng',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/bizchain/docs.bizchain.vn',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            type: 'dropdown',
+            label: 'Social',
+            position: 'right',
+            items: [
+              {
+                label: 'Zalo',
+                href: 'https://zalo.me/bizchain',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/vBizChain',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/hongying.gao',
+              },
+              {
+                label: 'Buy me a coffee',
+                href: 'https://www.buymeacoffee.com/caoanh',
+              },
+            ],
           },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
+        // links: [
+        //   {
+        //     title: 'Thường được quan tâm',
+        //     items: [
+        //       {
+        //         label: 'Bản quyền sản phẩm',
+        //         to: '/docs/intro',
+        //       },
+        //       {
+        //         label: 'Bản quyền sản phẩm',
+        //         to: '/docs/intro',
+        //       },
+        //       {
+        //         label: 'Bản quyền sản phẩm',
+        //         to: '/docs/intro',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: 'Community',
+        //     items: [
+        //       {
+        //         label: 'Discord',
+        //         href: 'https://discord.com/'
+        //       },
+        //       {
+        //         label: 'Twitter',
+        //         href: 'https://twitter.com/vBizChain',
+        //       }
+        //     ],
+        //   },
+        //   {
+        //     title: 'More',
+        //     items: [
+        //       {
+        //         label: 'GitHub',
+        //         href: 'https://github.com/bizchain',
+        //       }
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()} BizChain Vietnam. Built with Docusaurus.`,
       },
       prism: {

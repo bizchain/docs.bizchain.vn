@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Sản phẩm',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        BizChain cung cấp các sản phẩm dựng sẵn và đồng hành cùng bạn. Sản phẩm của chúng tôi là những "thực thể sống", thường xuyên được cập nhật và cải tiến.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Dịch vụ',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Xây dựng/Lập trình web theo yêu cầu. Bạn sẽ luôn được tư vấn kỹ cho mọi vấn đề trước khi bắt đầu, chứ không chỉ chăm "chỉ làm theo yêu cầu".
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Đào tạo',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Học lập trình trình Serverless cho cá nhân, trường hợc và doanh nghiệp. Đặc biệt, mỗi sản phẩm của BizChain, chúng tôi đều có khóa học tương ứng.
       </>
     ),
   },
