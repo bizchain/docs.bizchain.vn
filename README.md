@@ -1,41 +1,38 @@
-# Website
+# BizChain Documentation
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Trang tài liệu `giới thiệu` và `hướng dẫn sử dụng` các sản phẩm, dịch vụ của BizChain Vietnam và các đối tác.
 
-### Installation
+## Giới thiệu BizChain
 
-```
-$ yarn
-```
+BizChain hay BizChain Vietnam là đơn vị cung cấp các sản phẩm, dịch vụ, đào tạo liên quan đến lập trình web và ứng dụng web trên nền tảng công nghệ hiện đại như `Serverless`, `JamStack`, `Client-Server`.
 
-### Local Development
+Đối tượng khách hàng của chúng tôi là cá nhân, doanh nghiệp nhỏ và siêu nhỏ, trường học.
 
-```
-$ yarn start
-```
+## Sản phẩm và dịch vụ
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Bên cạnh những sản phẩm/dịch vụ do chính BizChain cung cấp thì chúng tôi có liên kết (làm đại lý) của nhiều đơn vị lớn trong lĩnh vực CNTT.
 
-### Build
+### Sản phẩm
 
-```
-$ yarn build
-```
+BizChain cung cấp các sản phẩm dựng sẵn và đồng hành cùng bạn. Sản phẩm của chúng tôi là những `thực thể sống`, thường xuyên được cập nhật và cải tiến.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### Dịch vụ
 
-### Deployment
+Xây dựng/Lập trình web theo yêu cầu. Bạn sẽ luôn được tư vấn kỹ cho mọi vấn đề trước khi bắt đầu, chứ không chỉ chăm "chỉ làm theo yêu cầu".
 
-Using SSH:
+### Đào tạo
 
-```
-$ USE_SSH=true yarn deploy
-```
+Học lập trình trình `Serverless` cho cá nhân, trường hợc và doanh nghiệp. Đặc biệt, mỗi sản phẩm của BizChain, chúng tôi đều có khóa học tương ứng.
 
-Not using SSH:
+## Các liên kết
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+- Website chính: https://bizchain.vn
+- Cửa hàng: https://store.bizchain.vn
+- Tài liệu: https://docs.bizchain.vn
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Liên hệ
+
+- Contact form: https://bizchain.vn/contact
+- Email: hi at bizchain dot vn
+- Ticket support: https://store.bizchain.vn/dash/tickets
+- Zalo: https://zalo.me/bizchain
